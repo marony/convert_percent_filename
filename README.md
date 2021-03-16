@@ -7,6 +7,12 @@
 $ cargo run ルートパス
 ```
 
+## 仕様
+1. %XXを数値にデコード
+2. 数値をユニコードのコードポイントとしてCP850の文字コードに変換
+3. 全体をSJISとして文字列に変換
+4. 旧ファイル名から新ファイル名にファイルをリネーム
+
 ## 例
 ls /media/tada/Wy\ Passport/working
 "Sample%C9%E5%E9%BD%F2%B9.pptx" -> "Sample炊き方.pptx"
