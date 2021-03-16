@@ -14,5 +14,4 @@ $ cargo run ルートパス
 4. 旧ファイル名から新ファイル名にファイルをリネーム
 
 ## 例
-ls /media/tada/Wy\ Passport/working
 "Sample%C9%E5%E9%BD%F2%B9.pptx" -> "Sample炊き方.pptx"
